@@ -8,7 +8,7 @@
   return value;
   }
   const foods = [];
-  import { Pipe, PipeTransform } from "@angular/core";
+  import { Pipe, PipeTransform } from '@angular/core';
   
   for(let v of value)
   {
