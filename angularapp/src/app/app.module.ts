@@ -5,11 +5,13 @@ import { BrowserModule } from "@angular/platform-browser";
 import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
 import { FilterPipe } from "./filter.pipe";
+import { CurrencyconvPipe } from './currencyconv.pipe';
 
 @NgModule({
 declarations: [
 AppComponent,
-FilterPipe
+FilterPipe,
+CurrencyconvPipe
 ],
 imports: [
 BrowserModule,
